@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/** ===============================================================================NAV BAR=================================================================================**/
+.nav_bar{
+    background-color: #000814;
+    color: white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/** HEADING **/
+
+.headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header_p1{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.header_p2{
+    font-size: 30px;
+    color: #FFC300;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+.options a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family:monospace;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+
+}
+
+.git_icon{
+    padding: 40px;
+}
+
+/** ===============================================================================INTRO PAGE============================================================================= **/
+
+.intro_page{
+    background-color: #001124;
+    background-color: #0C1124;
+    height: 88vh;
+    color: white;
+}
+
+.intro_page_top{
+    display: flex;
+}
+
+/** LEFT **/
+
+.intro_page_top_left{
+    height: 88vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    mix-blend-mode:lighten;
+}
+
+.image1{
+    /* border: 3px solid white; */
+    height: 30vh;
+}
+
+.intro_section{
+    padding: 80px;
+}
+
+h3{
+    color: #FFC300;
+    font-family:monospace;
+    font-size: 20px;
+}
+
+#line1{
+    font-size: 60px;
+    font-family:Verdana;
+}
+
+#paragraph{
+    font-size: 20px;
+    font-family: cursive;
+    color: grey;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    background-color: #FFC300;
+    border: 3px solid white;
+    border-radius: 1vh;
+    
+}
+
+/** RIGHT **/
+
+.intro_page_top_right{
+    height: 88vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode:lighten;
+}
+
+.box_line1{
+    height: 150px;
+    width: 500px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box_line2{
+    height: 150px;
+    width: 500px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#box1{
+    border: 2px solid white;
+    height: 100px;
+}
+
+#box2{
+    border: 2px solid white;
+    height: 100px;
+}
+
+#box3{
+    border: 2px solid white;
+    height: 110px;
+}
+
+.content_page{
+    background-color: #001124;
+    background-color: #0C1124;
+    height: 88vh;
+    color: white;
+}
+
+/** ===================================================================================FOOTER============================================================================ **/
+
+ .page_bottom{
+    height: 5vh;
+    background-color: #000814;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .contacts{
+    width: 150px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ #gmail{
+    color: #FFC300;
+ }
