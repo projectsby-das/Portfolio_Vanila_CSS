@@ -190,3 +190,9 @@ button{
  #gmail{
     color: #FFC300;
  }
+
+ @media (max-width: 600px) {
+    .intro_page_top{
+        width: 100%;
+    }
+ }
